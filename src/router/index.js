@@ -2,10 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
-const home = () =>import('../pages/home/home') 
-const cart = () =>import('../pages/cart/cart') 
-const category = () =>import('../pages/category/category') 
-const profile = () =>import('../pages/profile/profile') 
+const Home = () =>import('../pages/home/Home') 
+const Cart = () =>import('../pages/cart/Cart') 
+const Category = () =>import('../pages/category/Category') 
+const Profile = () =>import('../pages/profile/Profile') 
 const routes = [
     {
         path:'',
@@ -13,19 +13,19 @@ const routes = [
     },
     {
         path:'/home',
-        component:home
+        component:Home
     },
     {
         path:'/cart',
-        component:cart 
+        component:Cart 
     },
     {
         path:'/category',
-        component:category 
+        component:Category 
     },
     {
         path:'/profile',
-        component:profile
+        component:Profile
     }
 
 ]

@@ -35,7 +35,7 @@
 </script>
 
 <style>
-.active{background-color:rgba(236, 122, 189, 0.76);}
+.active{background-color:var(--color-tint);}
 .tab-bar-item{
     flex: 1;
     text-align: center;

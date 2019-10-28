@@ -22,5 +22,5 @@ export default {
 </script>
 
 <style>
- 
+ @import './assets/style/base.css'
 </style>
